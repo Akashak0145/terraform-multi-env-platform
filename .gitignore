@@ -38,3 +38,7 @@ terraform.rc
 Thumbs.db
 .vscode/
 .idea/
+
+!environments/dev/terraform.tfvars
+!environments/staging/terraform.tfvars
+!environments/prod/terraform.tfvars
