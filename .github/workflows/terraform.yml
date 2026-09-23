@@ -1,4 +1,4 @@
-name: Terraform CI
+name: Terraform CI Plan
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   terraform-check:
-    name: Terraform Validate
+    name: Terraform Plan (${{ matrix.environment }})
     runs-on: ubuntu-latest
 
     strategy:
